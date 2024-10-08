@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #f0f0f0; /* Color de fondo del contenedor */
+}
+
+.img {
+    width: 30%;
+    padding-top: 70px;
+}
+
+.img img {
+    width: 100%;
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+}
+
+.js {
+    margin-left: 20px;
+    width: 60%;
+    display: flex;
+    align-items: flex-start; /* Cambiado de 'left' a 'flex-start' */
+    flex-direction: column;
+    gap: 12px; /* Espaciado aumentado */
+    padding: 20px;
+    background-color: #ffffff; /* Color de fondo para el texto */
+    border-radius: 10px; /* Bordes redondeados para el contenedor de texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+h1 {
+    background-color: #005577; /* Color de fondo cambiado */
+    width: 100vw;
+    padding: 20px;
+    color: #ffffff; /* Color de texto cambiado a blanco */
+    text-align: center;
+    font-size: 28px; /* Tamaño de fuente aumentado */
+}
+
+.js h3 {
+    font-weight: bolder;
+    font-size: 26px; /* Tamaño de fuente aumentado */
+    margin-top: 20px;
+    color: #007acc; /* Color de texto cambiado */
+}
+
+.js p {
+    font-size: 20px; /* Tamaño de fuente aumentado */
+    font-weight: normal; /* Peso de fuente cambiado a normal */
+    color: #555555; /* Color de texto cambiado */
+}
